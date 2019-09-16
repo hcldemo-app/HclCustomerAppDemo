@@ -73,7 +73,7 @@ namespace GICMicro.Controllers
         {
             if (id == null)
             {
-                return BadRequest();
+                return  BadRequest();
             }
             CompanyId companyID = db.CompanyId.Find(id);
             if (companyID == null)
